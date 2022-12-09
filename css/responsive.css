@@ -1,0 +1,304 @@
+    @media only screen and (max-width:1200px) {
+        .container {
+            width: 90%;
+        }
+        .slider-content {
+            width: 70%;
+        }
+        .accordian-title i {
+            margin-left: 52px;
+        }
+        .testimonial-wraper {
+            width: 132%;
+        }
+        .accordian-title {
+            font-size: 16px;
+        }
+    }
+    
+    @media only screen and (max-width:992px) {
+        .slider-content {
+            width: 82%;
+        }
+        .slider-content h2 {
+            color: #fff;
+            font-size: 46px;
+            line-height: 58px;
+        }
+        .call-to-content {
+            text-align: center;
+            width: 85%;
+            margin: auto;
+        }
+        .blog-item {
+            width: 48%;
+            margin-bottom: 19px;
+        }
+        .fligh-title {
+            width: 85%;
+        }
+        .flight-right-content {
+            width: 85%;
+            order: 1;
+            margin: auto;
+        }
+        .flight-left-content {
+            width: 50%;
+            margin: auto;
+            order: 2;
+            display: none;
+        }
+        .flight-wraper {
+            display: flex;
+            flex-direction: column;
+        }
+        .flight-right-content-wraper {
+            display: flex;
+            margin-top: 50px;
+            flex-direction: column;
+        }
+        .flight-rght-subtitle {
+            width: 81%;
+            margin-right: 0;
+        }
+        .about-wraper {
+            display: flex;
+            flex-direction: column;
+        }
+        .about-left {
+            width: 90%;
+        }
+        .about-right {
+            width: 60%;
+            margin-top: 25px;
+        }
+        .faq-wraper {
+            display: flex;
+            flex-direction: column;
+        }
+        .faq-left {
+            width: 90%;
+        }
+        .fag-right {
+            width: 55%;
+            margin-top: 20px;
+        }
+        .testimonial-wraper {
+            width: 195%;
+        }
+        .contact-wraper {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-left {
+            width: 90%;
+            margin-bottom: 40px;
+        }
+        .contact-right {
+            width: 60%;
+        }
+        .footer-item {
+            width: 84%;
+        }
+        .footer-wraper {
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        .footer-item h3 {
+            color: #fff;
+            font-size: 42px;
+            margin-bottom: 31px;
+        }
+        .accordian-title {
+            font-size: 19px;
+        }
+    }
+    
+    @media only screen and (max-width:768px) {
+        a#mobile-menu {
+            display: block;
+        }
+        .navbar {
+            position: absolute;
+            background: #000;
+            z-index: 9;
+            width: 0%;
+            left: 0;
+            top: 82px;
+            text-align: center;
+            padding: 70px 0;
+            overflow: hidden;
+            transition: all .5s;
+        }
+        .navbar-show {
+            width: 100%;
+        }
+        .navbar ul li {
+            display: block;
+            line-height: 44px;
+        }
+        .slider-content h2 {
+            color: #fff;
+            font-size: 34px;
+            line-height: 42px;
+        }
+        .slider-content p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .slider-item {
+            height: 380px;
+        }
+        .slider-wraper {
+            position: relative;
+            width: 100%;
+            height: 390px;
+        }
+        .call-to-content {
+            text-align: center;
+            width: 100%;
+            margin: auto;
+        }
+        .section-title {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        .blog-item {
+            width: 81%;
+            margin-bottom: 19px;
+        }
+        .flight-right-content img {
+            width: 90%;
+            border-radius: 5px;
+        }
+        button#flight-btn {
+            bottom: 4px;
+        }
+        .fligh-title {
+            width: 100%;
+        }
+        .about-left {
+            width: 100%;
+        }
+        .about-right {
+            width: 80%;
+            margin-top: 25px;
+        }
+        .faq-left {
+            width: 100%;
+        }
+        .accordian-title {
+            font-size: 17px;
+        }
+        .accordian-title i {
+            margin-left: 32px;
+        }
+        .fag-right {
+            width: 90%;
+            margin-top: 20px;
+        }
+        .testimonial-wraper {
+            width: 364%;
+        }
+        .testimonial-item {
+            text-align: center;
+            width: 100% !important;
+            padding: 33px 26px;
+            margin-left: 65px;
+        }
+        #testi-prev {
+            left: 48px;
+        }
+        #testi-next {
+            background: #fff;
+            position: absolute;
+            right: 34px;
+        }
+        .contact-right {
+            width: 80%;
+        }
+        .testi {
+            height: 130px !important;
+            margin-top: 14px;
+        }
+    }
+    
+    @media only screen and (max-width:576px) {
+        .slider-content h2 {
+            color: #fff;
+            font-size: 26px;
+            line-height: 32px;
+        }
+        .slider-content {
+            width: 95%;
+        }
+        .slider-nav {
+            position: absolute;
+            left: 0;
+            width: 100%;
+            top: 80%;
+            border: 0;
+        }
+        .blog-wraper {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .blog-item {
+            width: 100%;
+            margin-bottom: 19px;
+        }
+        .section-title {
+            font-size: 25px;
+        }
+        .flight-right-content {
+            width: 100%;
+            order: 1;
+            margin: auto;
+        }
+        .testimonial-wraper {
+            width: 348%;
+        }
+        .flight-rght-subtitle {
+            width: 100%;
+            margin-right: 0;
+        }
+        .flight-right-content-wraper h3 {
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 32px;
+        }
+        .testi {
+            height: 190px !important;
+            margin-top: 14px;
+        }
+        .accordian-title {
+            font-size: 13px;
+        }
+        .accordian-item p {
+            font-size: 13px;
+        }
+    }
+    
+    @media only screen and (max-width:450px) {
+        .container {
+            width: 94%;
+        }
+        .testimonial-item {
+            padding: 33px 26px;
+            margin-left: 19px;
+        }
+        .testimonial-wraper {
+            width: 380%;
+        }
+        #testi-prev {
+            left: 4px;
+        }
+        #testi-next {
+            background: #fff;
+            position: absolute;
+            right: 2px;
+        }
+    }
